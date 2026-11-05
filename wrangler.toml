@@ -1,4 +1,5 @@
-name = "truco-arena"
+
+name = "trucoarena"
 main = "worker.js"
 compatibility_date = "2026-11-05"
 
