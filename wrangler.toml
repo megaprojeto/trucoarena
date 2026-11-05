@@ -1,0 +1,11 @@
+name = "truco-arena"
+main = "worker.js"
+compatibility_date = "2026-11-05"
+
+[[durable_objects.bindings]]
+name = "GAME"
+class_name = "GameRoom"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["GameRoom"]
